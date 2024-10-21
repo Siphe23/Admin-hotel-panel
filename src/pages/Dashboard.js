@@ -1,6 +1,6 @@
 import React from 'react';
-import ReservationList from '../components/ReservationList';
-import Sidebar from '../components/Sidebar';
+import ReservationList from '../Components/ReservationList';
+import Sidebar from '../Components/Sidebar';
 
 const Dashboard = () => {
   return (

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../Firebase/firebase'; // Ensure this exports your Firebase auth instance
-import { setCurrentUser } from '../features/authSlice'; // Example: Auth slice to manage auth state
+import { auth } from '../Firebase/firebase'; 
+import { setCurrentUser } from '../features/authSlice'; 
 
 const AdminLogin = () => {
   const [email, setEmail] = useState('');

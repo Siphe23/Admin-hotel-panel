@@ -1,6 +1,6 @@
 import React from 'react';
-import AccommodationForm from '../components/AccommodationForm';
-import Sidebar from '../components/Sidebar';
+import AccommodationForm from '../Components/AccommodationForm';
+import Sidebar from '../Components/Sidebar';
 
 const EditAccommodation = () => {
   // You can fetch the accommodation details here to populate the form
